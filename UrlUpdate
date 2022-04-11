@@ -116,7 +116,7 @@
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
       "Name": "CLARO TLS 02",
@@ -126,7 +126,7 @@
       "TlsIP": "parceirosclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
       "Name": "CLARO SSL 03",
@@ -136,7 +136,7 @@
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "443",
-      "Info": "Sslpay"
+      "Info": "Ssl"
     },
     {
       "Name": "CLARO SSL 04",
@@ -147,26 +147,6 @@
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "443",
       "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO SSL 05",
-      "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br1.mrssh.xyz \nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 06",
-      "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br1.mrssh.xyz[app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "443",
-      "Info": "Ssl"
     },
     {
       "Name": "OI PROXY 01",
