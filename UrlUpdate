@@ -15,7 +15,7 @@
   ],
   "Servers": [
     {
-      "Name": "MAX NET | PREMIUM",
+      "Name": "SERVIDOR BRASIL 1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.mrssh.xyz",
@@ -25,10 +25,21 @@
       "USER": "",
       "PASS": ""
     },
-    {
-      "Name": "MAX NET | FREE",
-      "TYPE": "free",
+     {
+      "Name": "SERVIDOR BRASIL 2",
+      "TYPE": "premium",
       "FLAG": "br.png",
+      "ServerIP": "br2.mrssh.ml",
+      "CheckUser": "http://18.230.194.136:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR USA | FREE",
+      "TYPE": "free",
+      "FLAG": "us.png",
       "ServerIP": "exemplo02.dominio.xyz",
       "CheckUser": "http://exemplo02.dominio.xyz:8989/checkUser",
       "ServerPort": "22",
