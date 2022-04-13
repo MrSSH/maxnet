@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.2",
-  "ReleaseNotes": "UPDATE 1.0.2",
+  "Version": "1.0.3",
+  "ReleaseNotes": "UPDATE 1.0.3",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -37,15 +37,15 @@
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR FREE",
-      "TYPE": "free",
-      "FLAG": "us.png",
-      "ServerIP": "exemplo02.dominio.xyz",
-      "CheckUser": "http://exemplo02.dominio.xyz:8989/checkUser",
+      "Name": "SERVIDOR 3",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "painelfastnet.online",
+      "CheckUser": "http://18.231.175.195:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "free",
-      "PASS": "1234"
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
