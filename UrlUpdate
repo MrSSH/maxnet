@@ -142,27 +142,17 @@
     {
       "Name": "CLARO 03",
       "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "443",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04",
-      "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br1.mrssh.xyz [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.56.6",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "443",
-      "Info": "Proxy"
+      "Payload": "GET ws://gersonclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "gersonclaro.com.br",
+      "TlsIP": "gersonclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlws"
     },
     {
       "Name": "OI 01",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br1.mrssh.xyz[app_host]\nUpgrade: WebSocket\n\n",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
@@ -172,7 +162,7 @@
     {
       "Name": "OI 02",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br1.mrssh.xyz[app_host]\nUpgrade: WebSocket\n\n",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
