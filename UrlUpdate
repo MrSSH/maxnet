@@ -52,7 +52,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "mrsshh.ml",
-      "CheckUser": "http://18.231.175.195:5454/checkUser",
+      "CheckUser": "http://15.228.229.124:5454/check/",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
