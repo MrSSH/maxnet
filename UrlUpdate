@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "ReleaseNotes": "UPDATE 1.0.4",
+  "Version": "1.0.5",
+  "ReleaseNotes": "UPDATE 1.0.",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -41,6 +41,17 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "painelfastnet.online",
+      "CheckUser": "http://18.231.175.195:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR 4",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "mrsshh.ml",
       "CheckUser": "http://18.231.175.195:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
