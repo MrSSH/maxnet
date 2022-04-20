@@ -149,6 +149,16 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO 03",
+      "FLAG": "claro",
+      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "parceirosclaro.com.br",
+      "TlsIP": "parceirosclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     }
   ]
 }
