@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.7",
-  "ReleaseNotes": "UPDATE 1.0.7",
+  "Version": "1.0.8",
+  "ReleaseNotes": "UPDATE 1.0.8",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -53,6 +53,17 @@
       "FLAG": "br.png",
       "ServerIP": "mrssh.tk",
       "CheckUser": "http://168.138.144.42:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR 5",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "fastnett.ml",
+      "CheckUser": "http://168.138.142,217:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
