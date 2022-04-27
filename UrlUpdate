@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.9",
-  "ReleaseNotes": "UPDATE 1.0.9",
+  "Version": "1.1.0",
+  "ReleaseNotes": "UPDATE 1.1.0",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -154,9 +154,9 @@
     {
       "Name": "CLARO 02",
       "FLAG": "claro",
-      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
