@@ -63,7 +63,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "fastnett.ml",
-      "CheckUser": "http://168.138.150.20:5454/checkUser",
+      "CheckUser": "http://209.14.69.251:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
