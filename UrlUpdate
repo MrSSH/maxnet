@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.6",
-  "ReleaseNotes": "UPDATE 1.1.6 - ADICIONADO OPERADORA OI",
+  "Version": "1.1.7",
+  "ReleaseNotes": "UPDATE 1.1.7 - TIM 03 FUNCIONANDO",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -124,7 +124,7 @@
     {
       "Name": "TIM 03",
       "FLAG": "tim",
-      "Payload": "GET wss://cutim.com.br/ HTTP/1.1[crlf]Host: mrssh.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://cutim.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "cutim.com.br",
       "TlsIP": "cutim.com.br",
       "ProxyIP": "",
