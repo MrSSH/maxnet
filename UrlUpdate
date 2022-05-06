@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.7",
-  "ReleaseNotes": "UPDATE 1.1.7 - TIM 03 FUNCIONANDO",
+  "Version": "1.1.8",
+  "ReleaseNotes": "UPDATE 1.1.8",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -114,9 +114,9 @@
     {
       "Name": "TIM 02",
       "FLAG": "tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\nConnection: Keep-Alive\nUser-Agent: [ua]\nReferer: \r\n\r\n",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.18.94",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
