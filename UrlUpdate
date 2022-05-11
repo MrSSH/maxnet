@@ -1,6 +1,6 @@
 {
-  "Version": "1.2.3",
-  "ReleaseNotes": "UPDATE 1.2.3",
+  "Version": "1.2.4",
+  "ReleaseNotes": "UPDATE 1.2.4",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -194,9 +194,9 @@
     {
       "Name": "CLARO 03",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
+      "Payload": "GET wss://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
