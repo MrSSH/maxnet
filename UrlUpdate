@@ -19,7 +19,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.mrssh.xyz",
-      "CheckUser": "http://190.102.41.202:5454/checkUser",
+      "CheckUser": "http://168.138.144.42:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
