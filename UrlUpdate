@@ -187,9 +187,9 @@
       "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "Atendimento.descomplica.com.br",
       "TlsIP": "199.60.103.228",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "ProxyIP": "199.60.103.228",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
     {
       "Name": "CLARO 02",
