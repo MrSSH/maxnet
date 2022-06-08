@@ -156,7 +156,7 @@
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\nConnection: Keep-Alive\nUser-Agent: [ua]\nReferer: \r\n\r\n",
       "SNI": "[app_host]",
-      "TlsIP": "blog.alura.com.br",
+      "TlsIP": "104.21.84.78",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
