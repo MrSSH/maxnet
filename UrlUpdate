@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.3",
-  "ReleaseNotes": "UPDATE 1.4.3 - VIVO TEMPORARIO",
+  "Version": "1.4.4",
+  "ReleaseNotes": "UPDATE 1.4.4 - VIVO 04/05 FUNCIONANDO",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -115,7 +115,7 @@
       "Name": "VIVO 04",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "172.67.165.43",
+      "SNI": "[app_host]",
       "TlsIP": "172.67.165.43",
       "ProxyIP": "",
       "ProxyPort": "",
