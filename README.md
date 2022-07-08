@@ -1,1 +1,1 @@
-# maxnetbeta
+# maxnet
