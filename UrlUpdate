@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.6",
-  "ReleaseNotes": "UPDATE 1.4.6",
+  "Version": "1.4.7",
+  "ReleaseNotes": "UPDATE 1.4.7 - VIVO 07,08,09 E 10 ON",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -142,6 +142,46 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "VIVO 07",
+      "FLAG": "vivo",
+      "Payload": "GET wss://beneficios.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "beneficios.vivo.com.br",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }, 
+    {
+      "Name": "VIVO 08",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "172.67.165.43",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    }, 
+    {
+      "Name": "VIVO 09",
+      "FLAG": "vivo",
+      "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }, 
+    {
+      "Name": "VIVO 10", 
+      "FLAG": "vivo", 
+      "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]", 
+      "SNI": "portaljud.vivo.com.br", 
+      "TlsIP": "104.21.11.51", 
+      "ProxyIP": "104.21.11.51", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws"
+    },
+    {
       "Name": "TIM 01",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -220,7 +260,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+     },
      {
       "Name": "OI 01",
       "FLAG": "oi",
