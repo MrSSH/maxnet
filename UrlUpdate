@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.8",
-  "ReleaseNotes": "UPDATE 1.4.8 - CLARO 01 OK",
+  "Version": "1.4.9",
+  "ReleaseNotes": "UPDATE 1.4.9 - CLARO 01 OK",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -224,7 +224,7 @@
     {
       "Name": "CLARO 01",
       "FLAG": "claro",
-      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: [crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "4.icanhazip.com",
       "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
