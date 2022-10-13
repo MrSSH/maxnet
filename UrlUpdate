@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.6",
-  "ReleaseNotes": "UPDATE 1.5.6 - ATUALIZACAO GLOBAL",
+  "Version": "1.5.7",
+  "ReleaseNotes": "UPDATE 1.5.7 - ATUALIZACAO GLOBAL",
   "UrlUpdate": "https://mrssh.github.io/maxnet/UrlUpdate",
   "Sms": "https://mrssh.github.io/maxnet/UrlSms",
   "EmailFeedback": "mrsshxyz@gmail.com",
@@ -96,6 +96,16 @@
        "ProxyIP": "",
        "ProxyPort": "443",
        "Info": "Tlsws"
+     },
+     {
+       "Name": "CLARO 03",
+       "FLAG": "claro",
+       "Payload": "",
+       "SNI": "m.waze.com",
+       "TlsIP": "",
+       "ProxyIP": "",
+       "ProxyPort": "",
+       "Info": "Ssl"
      },
      {
       "Name": "OI 01",
